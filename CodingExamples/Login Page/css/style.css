@@ -1,0 +1,9 @@
+.errorinsert {
+	color:  red;
+	display: inline;
+	margin-left: 15px;
+}
+
+.nav-item {
+	display: inline-block !important;
+}

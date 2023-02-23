@@ -1,0 +1,171 @@
+@media all {
+	
+  header, main, article, section, aside, nav {display: block;}
+  body {margin: 0; padding: 0; font: 18px/2 "Open Sans Condensed", sans-serif; text-align: center; color: #333;}
+
+  
+  a:focus {outline: 3px solid #F18706; }
+    
+}
+
+@media screen {
+	.container {width: 1020px; margin: auto;}
+	.grid {display: grid; box-sizing: border-box; margin: auto;}
+	.padding {width: 86%; box-sizing: border-box;}
+	a {text-decoration: none; color: inherit;}
+	hr {display: none;}
+	
+	h2 {font-weight: 700; font-size: 18px; text-transform: uppercase; display: inline-block; padding: 0 10px; margin: 0;}
+	p {margin: 0;}
+	a h2:hover {color: #F18706; background-color: #000; transition: color 1s, background-color 1s;}
+	header .stripe {position: absolute; bottom: 0;}
+	
+
+
+
+	.stripe {background-color:  #F18706; height: 7px; margin: 0; width: 100%;}
+
+
+	
+	header {background: url(assets/city-skate-hero.jpg) no-repeat center; background-size: cover; height: 568px; position: relative;}
+	#cityskate {text-transform: uppercase; text-align: left;}
+	header nav {grid-template-columns: 30% 70%; color: #fff; width: 100%; padding: 20px 24px; font: 36px "Righteous", sans-serif; box-sizing: border-box; position: relative;}
+	#primaryNavigation {list-style: none; margin: 0; padding: 0; text-align: right; display: block;}
+	header nav ul {display: block;}
+	header nav ul li {display: inline-block; margin: 0;}
+	header nav a {display: inline-block; padding: 0 6px; margin: 0;}
+	header nav a:hover {color: #F18706; background-color: #000; transition: color 1s, background-color 1s;}
+	
+	#hamMenu {text-align: right; position: relative; display: none;}
+	#navToggle {color: #fff; text-decoration: none; background: transparent; border: none; text-align: right;}
+	#navToggle:hover {color: #F18706; background-color: #000; transition: color 1s, background-color 1s;}
+	#navToggle:focus {outline: 3px solid #F18706; }
+
+	#bannedfrom {margin: 123px auto 130px;}
+	#bannedfrom h1 {text-transform: lowercase; font: 300 36px "Open Sans Condensed", sans-serif; display: block; margin: 0;}
+	#bannedfrom h2 {margin: 18px auto 0;}
+
+
+	#decksandshoesholder {position: relative; padding: 0;}
+	#decksandshoes {grid-template-columns: 1fr 1fr 1fr; width: 100%;}
+	#decksandshoes img {width: 100%; height: auto;}
+	#vintagedecks {padding-top: 136px; margin: 0; top: 0; right: 0;}
+	#vintagedecksimg {grid-column: 1 / 3;}
+	#daytimeimg {grid-column: 2 / 4;}
+	#blurredimg {grid-column: 1 / 4;  filter: grayscale(100%);}
+
+	.blackbox {background: #000; color: #fff; padding: 76px 0 61px; text-align: center; width: 33.33%; box-sizing: border-box; display: block; position: absolute;}
+	.blackbox div {width: 58.9%; margin: auto;}
+	.blackbox:hover {color: #000; background-color: #fff; transition: color 1s, background-color 1s, border 1s; outline: 3px solid #F18706;}
+	#rareshoes {top: 54.5%; left: 0;}
+	#icon {width: 142px; height: 48px; margin: 86px 0 40px 0;}
+
+	#longboards {grid-template-columns: 1fr 1fr 1fr; margin-bottom: 59px; grid-column-gap: 16px;}
+	#longboardssection h1 {margin: 67px 0 19px; font: 42px "Righteous", sans-serif; display: inline-block; text-transform: capitalize;}
+	.bucket {padding: 22px 10px;}
+	.bucket h2 { margin: -9px 0 0; padding: 0; display: block; font-size: 30px;}
+	.bucket h2:hover {transition: none; background: none; color: inherit;}
+	.bucket:hover {color: #F18706; background-color: #000; transition: color 1s, background-color 1s, border 1s; outline: 3px solid #F18706;}
+
+	footer {background: #999; color: #000;}
+	footer ul {list-style: none; margin: 0; padding: 0; text-align: left; font-weight: 700; font-size: 16px; text-transform: uppercase;}
+	footer ul li {margin-bottom: 4px;}
+	footer ul li a {padding: 6px;}
+	footer ul li a:hover {color: #F18706; background-color: #000; transition: color 1s, background-color 1s;}
+	#socialmedia {text-align: right; margin-right: -13px;}
+	#socialmedia ul {text-align: right; height: 52px; margin-bottom: 25px; margin-right: -6px;}
+	#socialmedia ul li {display: inline-block; padding: 0;  height: 52px;}
+	.socials {display: inline-block; width: 40px; height: 40px; }
+	.socialsimg {display: inline-block; background: url(assets/social-media.png) no-repeat; padding: 0; width: 40px; height: 40px;}
+	
+	.socials:hover .socialsimg  {filter: invert(48%) sepia(13%) saturate(20000%)  hue-rotate(5deg) brightness(100%) contrast(80%); background-color: transparent; transition: filter 1s;}
+	#footergrid {grid-template-columns: 1fr 1fr 1fr 2fr; padding: 32px 4px 52px; grid-gap: 73px;}
+	#y {margin: 0 10px;}
+	.socials {font-size: 0;}
+	#i .socialsimg {background-position: 1px 1px;}
+	#y .socialsimg {background-position: -64px 0;}
+	#t .socialsimg {background-position: -132px 1px;}
+	#socialmedia p {font: 12px "Roboto", sans-serif;}
+	#socialmedia p span {font-size: 18px;}
+	
+	
+}
+
+@media screen and (max-width: 1036px) {
+	.container {width: auto;}
+	.bucket img {width: 100%; height: auto;}
+	
+}
+
+@media screen and (max-width: 800px) {
+	#primaryNavigation {display: none;}
+	header nav {grid-template-columns: 2fr 1fr;}
+	#hamMenu {display: block;}
+	.blackbox {width: 40%;}
+	#footergrid {grid-template-columns: 24% 24% 24% 28%; grid-gap: 0;}
+	#y {margin: 0 8px;}
+	#primaryNavigation.show {display: block; background: rgba(0,0,0,0.5); position: absolute; right: 0; top: 80px;}
+	#primaryNavigation.show li {float: none; margin-left: 0; display: block; text-align: center;}
+}
+
+@media screen and (max-width: 700px) {
+	#longboards {grid-template-columns: 1fr;}
+	#footergrid {grid-template-columns: 1fr 1fr; grid-row-gap: 40px;}
+	footer ul {text-align: center;}
+	#vintagedecksimg {grid-column: 1 / 4;}
+	#sunsetimg {grid-column: 1/2;}
+	#daytimeimg {grid-column: 2 / 4;}
+
+	#vintagedecks {left: 0; right: 0; margin: auto; padding-top: 50px; top: 5%;}
+	#rareshoes {top: 59.5%;}
+	.blackbox {margin: auto; width: 80%; right:0; left:0; padding: 40px 0;}
+
+	#icon {margin: 40px 0 0;}
+	#socialmedia {text-align: center; margin: 0;}
+	#socialmedia ul {text-align: center; margin-right: 0;}
+	
+
+}
+
+@media screen and (max-width: 500px) {
+	#footergrid {grid-template-columns: 1fr;}
+	#longboards {grid-template-columns: 1fr 1fr 1fr;}
+	.padding {width: auto;}
+	.bucket {width: 100%; box-sizing: border-box;}
+	.blackbox {width: 100%;}
+	footer ul {margin: auto; width: 80%;}
+	footer ul li a {width: 100%; display: block;}
+	#footergrid {grid-row-gap: 0;}
+
+
+	#socialmedia {text-align: center;}
+	#socialmedia ul {text-align: center; margin: 0 auto; height: auto;}
+	#socialmedia ul li {margin: 25px;}
+
+
+}
+
+@media print {
+	body {text-align: left;}
+	.grid {display: grid; box-sizing: border-box;}
+	header nav {grid-template-columns: 1fr;}
+	#primaryNavigation {text-align: center; margin: 0 auto; display: inline-block;}
+	#primaryNavigation li {text-align: center; margin: auto;}
+
+	#cityskate {margin: 0 auto; text-align: center; font: 36px "Righteous", sans-serif; text-decoration: none;}
+	img {display: none;}
+	#longboards {grid-template-columns: 1fr 1fr 1fr;}
+	#longboardssection h1 {margin: 0;}
+	hr {display: block;}
+	#bannedfrom {margin: 0;}
+	#footergrid {grid-template-columns: 1fr 1fr 1fr 1fr;}
+	#socialmedia ul {margin: 0;}
+	h1 {font-size: 25pt;}
+	h2 {font-size: 20pt;}
+
+
+	#primaryNavigation {list-style-type: none; display: inline-block;}
+	#primaryNavigation li {display: inline-block; margin: 10pt;}
+	#hamMenu {display: none;}
+
+}
