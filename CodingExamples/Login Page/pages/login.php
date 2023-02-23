@@ -117,7 +117,7 @@ function getForm($acknowledgement, $elementsArr){
 global $stickyForm, $msg;
 
 
-$acknowledgement = "<h1>Login</h1><br /><p>Admin email: email@example.com <br />Staff email: 123@example.com <br /> password for both is password</p>" . $msg; 
+$acknowledgement = "<h1>Login</h1><br />" . $msg; 
  
 
 $form = <<<HTML
